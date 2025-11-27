@@ -28,6 +28,22 @@ Provides real-time predictions through a web interface
 
 ---
 
+1.Frontend Tools
+
+HTML5-Form structure	             Standard for web content
+CSS3/Bootstrap-Styling               Responsive design, professional UI
+JavaScript-Form validation           Client-side input checks
+Flask Templates-Dynamic renderin     Python integration, simplicity
+
+2. Backend Tools
+
+Python 3.10-Core programming	Rich ML ecosystem
+Flask-Web framework	        Lightweight, Python-native
+scikit-learn-Machine learning	Robust classification algorithms
+pandas-Data handling	        Efficient data manipulation
+joblib-Model persistence	Fast serialization for ML models
+ngrok-Public sharing	        Secure tunneling for demos
+
 🧵 Dataset Information
 
 The dataset contains customer demographic and vehicle-related information.
