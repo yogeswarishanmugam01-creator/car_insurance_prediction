@@ -1,0 +1,13 @@
+venv/
+_pycache_/
+.ipynb_checkpoints/
+Output/
+data/
+notebooks/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pyc
+*.csv
+*.json
