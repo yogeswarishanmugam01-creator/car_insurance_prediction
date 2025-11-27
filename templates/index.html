@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Purchase Prediction</title>
+</head>
+<body>
+    <h1>Car Insurance Purchase Prediction</h1>
+    <form action="/predict" method="post">
+        Age: <input type="number" name="Age" required><br>
+        Gender: 
+        <select name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        Driving License: 
+        <select name="Driving_License" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+        Vehicle Age: 
+        <select name="Vehicle_Age" required>
+            <option value="<1"><1 year</option>
+            <option value="1-2">1-2 years</option>
+            <option value=">2">>2 years</option>
+        </select><br>
+        Vehicle Damage: 
+        <select name="Vehicle_Damage" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br>
+        Annual Premium: <input type="number" name="Annual_Premium" required><br>
+        Vintage: <input type="number" name="Vintage" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
